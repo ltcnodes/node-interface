@@ -75,6 +75,12 @@ if( !isset( $formid ) && $nodeconfig['autorefresh'] > 0 ) {
         ?>
     </fieldset><br>
 
+    <a id="pricing"></a>
+    <fieldset>
+        <legend>LTC PRICE</legend>
+        <b>LTC Price in $USD: </b> <code><?php echo file_get_contents('https://checkltc.com/ '); ?></code>
+    </fieldset><br>
+    
     <a id="blockchaininfo"></a>
     <fieldset>
         <legend>BLOCKCHAIN INFO</legend>
@@ -200,9 +206,9 @@ if( !isset( $formid ) && $nodeconfig['autorefresh'] > 0 ) {
     $loadtime = $endscript - $startscript;
     ?>
     <div class="footer">
-        Made by <a href="https://github.com/xblau">xBlau</a>.
+        Made by <a href="https://github.com/xblau">xBlau</a>.  Modified by <a href="https://www.LTCNodes.com">LTCNodes.com</a>. 
         Powered by Core. Generated in <?php echo number_format( $loadtime, 4 ) ?> seconds.
-        Source code <a href="https://github.com/xblau/node-interface">here</a>.
+        Source code <a href="https://github.com/ltcnodes/node-interface">here</a>.
         <br><br>
     </div>
 </body>
