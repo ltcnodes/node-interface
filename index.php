@@ -78,7 +78,7 @@ if( !isset( $formid ) && $nodeconfig['autorefresh'] > 0 ) {
     <a id="pricing"></a>
     <fieldset>
         <legend>LTC PRICE</legend>
-        <b>LTC Price in $USD: </b> <code><?php echo file_get_contents('https://checkltc.com/ '); ?></code>
+        <b>LTC Price in $USD: </b> <code><?php echo file_get_contents('https://checkltc.com/'); ?></code>
     </fieldset><br>
     
     <a id="blockchaininfo"></a>
