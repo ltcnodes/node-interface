@@ -1,6 +1,6 @@
 # Litecoin Node Interface
 
-This is a basic web status page for Litecoin<sup>1</sup> full nodes. It's not pretty, but it works. If you want to see how it looks, a demo is available [here](https://ltc.xblau.com).
+This is a basic web status page for Litecoin<sup>1</sup> full nodes. It's not pretty, but it works. If you want to see how it looks, a demo of the original version is available [here](https://ltc.xblau.com).
 
 You can use it to check things like:
 
@@ -8,11 +8,11 @@ You can use it to check things like:
 - **Sync status** (by looking at the number of blocks/headers).
 - **Network usage:** How much data your node has sent/received (since daemon start).
 - **Connected peers:** Info about inbound ant outbound connections to your node.
-- **LTC Price:** Currently in $USD from CheckLTC.com.
+- **LTC Price:** Currently in $USD from CheckLTC.com. (added April 3rd)
 
 If you have any problems or suggestions, feel free to open an issue or pull request.
 
-<sup>1: While I did it with Litecoin in mind, it should work with bitcoin or any of its forks without problems.</sup>
+<sup>1: While it was written with Litecoin in mind, it should work with bitcoin or any of its forks without problems.</sup>
 
 ### [Security](#security)
 
@@ -32,6 +32,10 @@ On Debian and derivates (Ubuntu, etc) you can install everything with
     
     # apt-get install apache2 libapache2-mod-php php-curl
 
+For CentOS, RHEL, etc.. you should be able to use:
+
+   # yum install httpd php
+
 For other distros, there are a lot of awesome tutorials online you can check.
 
 ### [Installing](#installing)
@@ -48,7 +52,7 @@ Once you do it, restart the daemon:
 
 After that, clone this repository in an empty, publicly accessible directory:
 
-    $ git clone https://github.com/xblau/node-interface.git .
+    $ git clone https://github.com/ltcnodes/node-interface.git .
 
 Now, copy (*not rename*) the example config file to `config.php`:
 
@@ -66,4 +70,6 @@ Simply run `git pull`. This should get any new commits and apply them to your lo
 
 This project is free software, licensed under the terms of the MIT License. See the `LICENSE` file on this repository or [opensource.org/licenses/mit](https://opensource.org/licenses/mit).
 
-If you liked or found this useful, starring this repo on GitHub or sending an email (even if it's just a "Hey, I'm using your project") helps a lot! Also, in case you want to send a tip: `LXBLauKyugeQGY2m8JZSMQJzc9rR1yNXgR`.
+*Note* This project is a fork of another one - below is a tip-note from the original dev.
+
+If you liked or found this useful, starring this repo on GitHub or sending an email (even if it's just a "Hey, I'm using your project") helps a lot! Also, in case you want to send a tip: LXBLauKyugeQGY2m8JZSMQJzc9rR1yNXgR.
