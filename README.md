@@ -34,7 +34,7 @@ On Debian and derivates (Ubuntu, etc) you can install everything with
 
 For CentOS, RHEL, etc.. you should be able to use:
 
-   # yum install httpd php
+    # yum install httpd php
 
 For other distros, there are a lot of awesome tutorials online you can check.
 
