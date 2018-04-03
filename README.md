@@ -2,12 +2,13 @@
 
 This is a basic web status page for Litecoin<sup>1</sup> full nodes. It's not pretty, but it works. If you want to see how it looks, a demo is available [here](https://ltc.xblau.com).
 
-You can use it to check thing like:
+You can use it to check things like:
 
 - **Node uptime** (but only on very recent versions of Litecoin Core).
 - **Sync status** (by looking at the number of blocks/headers).
 - **Network usage:** How much data your node has sent/received (since daemon start).
 - **Connected peers:** Info about inbound ant outbound connections to your node.
+- **LTC Price:** Currently in $USD from CheckLTC.com.
 
 If you have any problems or suggestions, feel free to open an issue or pull request.
 
