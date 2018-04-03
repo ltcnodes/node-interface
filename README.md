@@ -1,4 +1,4 @@
-# Litecoin Node Interface
+# LTCNodes.com Litecoin Node Interface
 
 This is a basic web status page for Litecoin<sup>1</sup> full nodes. It's not pretty, but it works. If you want to see how it looks, a demo of the original version is available [here](https://ltc.xblau.com).
 
